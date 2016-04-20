@@ -1,5 +1,5 @@
 # The deployment section should be excluded until
-# it is explicitly included in module 5
+# it is explicitly included in module 5 
 
 #deployment:
 #  dockerhub:
@@ -8,5 +8,5 @@
 #      - $DOCKER_HUB_TRIGGER
 
 test:
-  override:    
+  override:
     - mocha
